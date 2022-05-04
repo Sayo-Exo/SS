@@ -8,10 +8,14 @@ h1 {
   text-align: center;
 }
 
-.egypt .meso {
+span .egypt {
   color: #C2B280;
 }
 
-.leader {
+span .meso {
+  color: #C2B280;
+}
+
+span .leader {
   color: #08FF4A;
 }
