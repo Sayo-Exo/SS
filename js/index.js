@@ -1,5 +1,5 @@
-paragraphs = document.querySelectorAll('input[type="p"]')
-headers = document.querySelectorAll('input[type="h1"]')
+paragraphs = document.querySelectorAll('p')
+headers = document.querySelectorAll('h1')
 
 for (int i = 0; i < paragraphs.length; i++) {
     const p = paragraphs[i];
