@@ -11,6 +11,8 @@ function formvar(element) {
     text = form(text, "Ancient Egypt", "egypt");
     text = form(text, "Egypt", "egypt");
     text = form(text, "Mesopotamia", "meso");
+    text = form(text, "Monarchy", "monarchy");
+    text = form(text, "Monarch", "monarchy");
   	element.innerHTML = text;
 }
 
