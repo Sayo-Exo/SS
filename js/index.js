@@ -6,13 +6,14 @@ headers.forEach(formvar);
 
 function formvar(element) {
   	let text = element.innerHTML;
-    text = form(text, "leader", "leader");
     text = form(text, "leadership", "leader");
+    text = form(text, "leader", "leader");
     text = form(text, "Ancient Egypt", "egypt");
     text = form(text, "Egypt", "egypt");
     text = form(text, "Mesopotamia", "meso");
     text = form(text, "Monarchy", "monarchy");
     text = form(text, "Monarch", "monarchy");
+    text = form(text, "Monarchist", "monarchy");
   	element.innerHTML = text;
 }
 
